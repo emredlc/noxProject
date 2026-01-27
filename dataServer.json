@@ -1,0 +1,353 @@
+{
+  "users": [
+    {
+      "id": "1286",
+      "mail": "emre@gmail.com",
+      "password": "231",
+      "isAuth": false,
+      "cart": [
+        {
+          "productId": 7,
+          "productName": "NOX Time",
+          "productPrice": 399,
+          "productImg": "../../public/assets/NoxTime.png",
+          "quantity": 11
+        },
+        {
+          "productId": 1,
+          "productName": "NOX Book",
+          "productPrice": 1299,
+          "productImg": "../../public/assets/NoxBook.png",
+          "quantity": 1
+        },
+        {
+          "productId": 4,
+          "productName": "NOX One",
+          "productPrice": 899,
+          "productImg": "../../public/assets/NoxOne.png",
+          "quantity": 1
+        }
+      ],
+      "favourites": [
+        {
+          "productId": 2,
+          "productName": "NOX Book Pro",
+          "productPrice": 1899,
+          "productImg": "../../public/assets/NoxBookPro.png",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "7c5f",
+      "mail": "arda@gmail.com",
+      "password": "231",
+      "isAuth": false,
+      "cart": [],
+      "favourites": []
+    },
+    {
+      "id": "61f9",
+      "mail": "230408051@st.biruni.edu.tr",
+      "password": "asdasd",
+      "isAuth": false,
+      "cart": [],
+      "favourites": []
+    },
+    {
+      "id": "e7a5",
+      "mail": "ali@gmail.com",
+      "password": "123ali",
+      "cart": [
+        {
+          "productId": 1,
+          "productName": "NOX Book",
+          "productPrice": 1299,
+          "productImg": "../../public/assets/NoxBook.png",
+          "quantity": 1
+        }
+      ],
+      "favourites": [],
+      "isAuth": false
+    },
+    {
+      "id": "d745",
+      "mail": "kadir@gmail.com",
+      "password": "r123kadi",
+      "cart": [
+        {
+          "productId": 4,
+          "productName": "NOX One",
+          "productPrice": 899,
+          "productImg": "../../public/assets/NoxOne.png",
+          "quantity": 1
+        },
+        {
+          "productId": 11,
+          "productName": "NOX Void Pro",
+          "productPrice": 329,
+          "productImg": "../../public/assets/NoxVoidPro.png",
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "productName": "NOX Book",
+          "productPrice": 1299,
+          "productImg": "../../public/assets/NoxBook.png",
+          "quantity": 1
+        }
+      ],
+      "favourites": [],
+      "isAuth": false
+    }
+  ],
+  "products": [
+    {
+      "productId": 1,
+      "categoryId": 1,
+      "categoryName": "Laptop",
+      "productName": "NOX Book",
+      "productDescription": "NOX Book is a premium laptop designed for silent performance and focused productivity, combining minimal aesthetics with engineered efficiency.",
+      "productFeatures": [
+        "14” / 16” OLED display, 120Hz",
+        "Custom NOX SoC (ARM-based)",
+        "Fanless design",
+        "Up to 18 hours battery life",
+        "CNC aluminum unibody construction"
+      ],
+      "productPrice": 1299,
+      "id": "c835",
+      "productImg": "../../public/assets/NoxBook.png"
+    },
+    {
+      "productId": 2,
+      "categoryId": 1,
+      "categoryName": "Laptop",
+      "productName": "NOX Book Pro",
+      "productDescription": "NOX Book Pro delivers sustained performance and advanced thermal control for professionals who demand more power without compromising silence.",
+      "productFeatures": [
+        "14” / 16” OLED display, 120Hz",
+        "High-performance NOX SoC",
+        "Dual silent-fan cooling system",
+        "Up to 18 hours battery life",
+        "Ultra-thin CNC aluminum body"
+      ],
+      "productPrice": 1899,
+      "id": "c6f4",
+      "productImg": "../../public/assets/NoxBookPro.png"
+    },
+    {
+      "productId": 3,
+      "categoryId": 1,
+      "categoryName": "Laptop",
+      "productName": "NOX Book Air",
+      "productDescription": "NOX Book Air is the lightest and most portable laptop in the NOX lineup, built for mobility and everyday efficiency.",
+      "productFeatures": [
+        "13” OLED display",
+        "Ultra-light aluminum chassis",
+        "Fanless silent operation",
+        "Up to 20 hours battery life",
+        "Slim and portable design"
+      ],
+      "productPrice": 999,
+      "id": "49c3",
+      "productImg": "../../public/assets/NoxBookAir.png"
+    },
+    {
+      "productId": 4,
+      "categoryId": 2,
+      "categoryName": "Smartphone",
+      "productName": "NOX One",
+      "productDescription": "NOX One offers a distraction-free smartphone experience built around clean software, powerful hardware, and intentional design.",
+      "productFeatures": [
+        "6.7” OLED display, 120Hz",
+        "NOX Neural Camera with natural image processing",
+        "Near bezel-less design",
+        "Physical silent switch",
+        "NOX OS with privacy-first architecture"
+      ],
+      "productPrice": 899,
+      "id": "40ed",
+      "productImg": "../../public/assets/NoxOne.png"
+    },
+    {
+      "productId": 5,
+      "categoryId": 2,
+      "categoryName": "Smartphone",
+      "productName": "NOX One Pro",
+      "productDescription": "NOX One Pro enhances performance and camera capabilities to deliver the most refined NOX smartphone experience.",
+      "productFeatures": [
+        "6.7” OLED display, 120Hz",
+        "Advanced NOX Neural Camera system",
+        "Premium matte glass back",
+        "Physical silent switch",
+        "NOX OS with clean and secure design"
+      ],
+      "productPrice": 1099,
+      "id": "6b98",
+      "productImg": "../../public/assets/NoxOnePro.png"
+    },
+    {
+      "productId": 6,
+      "categoryId": 2,
+      "categoryName": "Smartphone",
+      "productName": "NOX One Mini",
+      "productDescription": "NOX One Mini delivers the core NOX smartphone experience in a compact and lightweight form factor.",
+      "productFeatures": [
+        "6.1” OLED display, 120Hz",
+        "Compact and ergonomic design",
+        "NOX Neural Camera",
+        "Physical silent switch",
+        "NOX OS with full ecosystem support"
+      ],
+      "productPrice": 749,
+      "id": "e8dc",
+      "productImg": "../../public/assets/NoxOneMini.png"
+    },
+    {
+      "productId": 7,
+      "categoryId": 3,
+      "categoryName": "Smartwatch",
+      "productName": "NOX Time",
+      "productDescription": "NOX Time is a minimalist smartwatch designed for everyday health tracking and seamless integration into the NOX ecosystem.",
+      "productFeatures": [
+        "1.9” AMOLED Always-On display",
+        "Health, sleep, and stress tracking",
+        "Haptic crown control",
+        "Up to 7 days battery life"
+      ],
+      "productPrice": 399,
+      "id": "d883",
+      "productImg": "../../public/assets/NoxTime.png"
+    },
+    {
+      "productId": 8,
+      "categoryId": 3,
+      "categoryName": "Smartwatch",
+      "productName": "NOX Time Ultra",
+      "productDescription": "NOX Time Ultra is built for durability and extended battery life, featuring premium materials and advanced sensors.",
+      "productFeatures": [
+        "1.9” AMOLED Always-On display",
+        "Titanium case",
+        "Advanced health sensors",
+        "Up to 10 days battery life"
+      ],
+      "productPrice": 599,
+      "id": "a3b5",
+      "productImg": "../../public/assets/NoxTimeUltra.png"
+    },
+    {
+      "productId": 9,
+      "categoryId": 3,
+      "categoryName": "Smartwatch",
+      "productName": "NOX Time Active",
+      "productDescription": "NOX Time Active is designed for fitness-focused users who want lightweight performance and durability.",
+      "productFeatures": [
+        "AMOLED display",
+        "Lightweight reinforced case",
+        "Advanced activity tracking",
+        "Water resistance",
+        "Up to 8 days battery life"
+      ],
+      "productPrice": 349,
+      "id": "7954",
+      "productImg": "../../public/assets/NoxTimeActive.png"
+    },
+    {
+      "productId": 10,
+      "categoryId": 4,
+      "categoryName": "Earbuds",
+      "productName": "NOX Void",
+      "productDescription": "NOX Void is a true wireless earbud designed to deliver silence, focus, and immersive sound through minimal design.",
+      "productFeatures": [
+        "Active Noise Cancellation (ANC)",
+        "Low-latency mode for video and gaming",
+        "Up to 28 hours total battery life",
+        "Matte soft-touch finish"
+      ],
+      "productPrice": 229,
+      "id": "5a96",
+      "productImg": "../../public/assets/NoxVoid.png"
+    },
+    {
+      "productId": 11,
+      "categoryId": 4,
+      "categoryName": "Earbuds",
+      "productName": "NOX Void Pro",
+      "productDescription": "NOX Void Pro enhances noise cancellation and audio clarity for a more premium listening experience.",
+      "productFeatures": [
+        "Advanced Active Noise Cancellation",
+        "Ultra-low latency performance",
+        "Premium audio drivers",
+        "Up to 28 hours total battery life"
+      ],
+      "productPrice": 329,
+      "id": "dcd0",
+      "productImg": "../../public/assets/NoxVoidPro.png"
+    },
+    {
+      "productId": 12,
+      "categoryId": 4,
+      "categoryName": "Earbuds",
+      "productName": "NOX Void Lite",
+      "productDescription": "NOX Void Lite delivers essential NOX audio quality in a lighter and more accessible form.",
+      "productFeatures": [
+        "Passive noise isolation",
+        "Compact lightweight design",
+        "Up to 24 hours total battery life",
+        "USB-C fast charging"
+      ],
+      "productPrice": 149,
+      "id": "8c40",
+      "productImg": "../../public/assets/NoxVoidLite.png"
+    },
+    {
+      "productId": 13,
+      "categoryId": 5,
+      "categoryName": "Monitor",
+      "productName": "NOX View",
+      "productDescription": "NOX View is a high-resolution monitor designed for creative professionals and precision-driven workflows.",
+      "productFeatures": [
+        "27” 5K IPS display",
+        "Ultra-thin bezels",
+        "Single-cable power and display",
+        "Professional-grade color accuracy"
+      ],
+      "productPrice": 999,
+      "id": "cf00",
+      "productImg": "../../public/assets/NoxView.png"
+    },
+    {
+      "productId": 14,
+      "categoryId": 5,
+      "categoryName": "Monitor",
+      "productName": "NOX View Studio",
+      "productDescription": "NOX View Studio delivers a larger canvas and uncompromising color fidelity for studio-grade production environments.",
+      "productFeatures": [
+        "32” 5K IPS display",
+        "Factory-calibrated color accuracy",
+        "Ultra-thin bezels",
+        "Single-cable connectivity"
+      ],
+      "productPrice": 1499,
+      "id": "e368",
+      "productImg": "../../public/assets/NoxViewStudio.png"
+    },
+    {
+      "productId": 15,
+      "categoryId": 5,
+      "categoryName": "Monitor",
+      "productName": "NOX View Edge",
+      "productDescription": "NOX View Edge is an ultra-wide monitor designed for multitasking and immersive workflows.",
+      "productFeatures": [
+        "34” ultra-wide IPS display",
+        "Minimal bezel design",
+        "High refresh rate",
+        "Single-cable connectivity"
+      ],
+      "productPrice": 1199,
+      "id": "f8b1",
+      "productImg": "../../public/assets/NoxViewEdge.png"
+    }
+  ]
+}
